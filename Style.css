@@ -1,0 +1,306 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+
+h1 {
+    font-family: 'coiny';
+    font-size: 40px;
+}
+
+.regular {
+    color: #8DA9C4;
+}
+
+.regular-1 {
+    color: #0B2545;
+}
+
+.regular-2 {
+    color: #F8FAFF;
+    margin: -48px 0px -8px 0px;
+}
+
+.regular-project {
+    color: #8DA9C4;
+    padding-left: 160px;
+}
+
+h2,
+h3,
+p,
+a {
+    font-family: 'comfortaa';
+    color: #0B2545;
+}
+
+p {
+    font-size: medium;
+    color: #0B2545;
+}
+
+body {
+    background-color: #F8FAFF;
+    margin: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F8FAFF;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.f-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 16px;
+    padding: 0;
+}
+
+.vl {
+    border-left: 2px solid #F8FAFF;
+    height: 150px;
+    margin: 0px -32px
+}
+
+.f-contct {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding-inline-start: 40px;
+    padding: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo-small-light {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    background-color: #0B2545;
+    gap: 20%;
+}
+
+nav {
+    color: #0B2545;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    padding: 8px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 24px;
+    padding-right: 56px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 0px 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.button-1 a {
+    color: #0B2545;
+    background-color: #E2C044;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 24px 16px 24px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: 0.3s ease;
+    font-weight: 400;
+
+}
+
+.button-1 a:hover {
+    color: #F8FAFF;
+    background-color: #A68D2F;
+}
+
+.button-2 a {
+    color: #0B2545;
+    border-color: #0B2545;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 22px 14px 22px;
+    border: 2px solid #0B2545;
+    border-radius: 100px;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+.button-2 a:hover {
+    color: #F8FAFF;
+    border-color: #F8FAFF;
+    background-color: #0B2545;
+    border: 2px solid transparent;
+}
+
+.button-3 a {
+    color: #0B2545;
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 16px;
+}
+
+.logo-small {
+    width: 144px;
+}
+
+.logo-big {
+    width: 200px;
+    margin: -48px 0px -24px 0px;
+}
+
+.home {
+    box-sizing: border-box;
+    background-image: url('./blue\ moon.svg');
+    width: 100%;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+
+.MY {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.MY-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.empty-space-1 {
+    height: 300px;
+}
+
+.projects {
+    margin-top: -88px;
+}
+
+.project-1 {
+    display: flex;
+    justify-content: end;
+    background-image: url(./weatherbug.svg);
+    height: 100%;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -250px;
+    padding: 200px 160px 200px 200px;
+}
+
+.p1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+}
+
+.project-2 {
+    background-image: url(./zenzest.png);
+    height: 100%;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: -100px 0px -100px 0px;
+    padding: 400px 0px 400px 160px
+}
+
+.p2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 40%;
+}
+
+.About {
+    background-image: url(./yellow\ moon.svg);
+    height: 100%;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 300px 160px 100px 450px
+}
+
+.About-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.instagram,
+.linkedin,
+.medium {
+    width: 45%;
+    padding-bottom: 16px;
+}
+
+.socialmedia-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.button-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+.DBS {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
